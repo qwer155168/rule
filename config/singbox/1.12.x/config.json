@@ -20,7 +20,6 @@
   "outbounds": [
     {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["🇭🇰 香港手动","🇭🇰 台湾手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
     {"tag": "🧠 AI", "type": "selector", "outbounds": ["🇭🇰 香港手动","🇭🇰 台湾手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
-    {"tag": "📕 x", "type": "selector", "outbounds": ["🇭🇰 香港手动","🇭🇰 台湾手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
     {"tag": "📹 YouTube", "type": "selector", "outbounds": ["🇭🇰 香港手动","🇭🇰 台湾手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
     {"tag": "🍀 Google", "type": "selector", "outbounds": ["🇭🇰 香港手动","🇭🇰 台湾手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
     {"tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🇭🇰 香港手动","🇭🇰 台湾手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "♻️ 自动选择"]},
@@ -52,7 +51,6 @@
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
-      {"rule_set": "geosite-x", "outbound": "📕 x"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
       {"rule_set": "geosite-google", "outbound": "🍀 Google"},
       {"rule_set": "geosite-github", "outbound": "👨‍💻 Github"},
@@ -75,7 +73,6 @@
     ],
     "rule_set": [
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
-      {"tag": "geosite-x", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/twitter.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-google", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-github", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs", "download_detour": "🎯 全球直连"},
